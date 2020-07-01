@@ -43,6 +43,6 @@ npm run build
 
 
 
-<div align="center">
+
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/42722816/86272035-3bd9ad80-bbce-11ea-9eef-1f0bb2c7c1c8.gif)
- </div>
+
