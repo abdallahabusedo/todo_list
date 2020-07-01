@@ -39,3 +39,4 @@ $ npm start
 ```sh
 npm run build
 ```
+![image](https://user-images.githubusercontent.com/42722816/86271453-2c0d9980-bbcd-11ea-8dd7-c86a3c5e1b0c.png)
