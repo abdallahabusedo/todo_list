@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'MuseoModerno', cursive;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  width: 25%;
+  min-width: 450px;
+  height: 600px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 10px 50px rgba(123, 123, 123, 0.802);
+}
+
+#background {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+.list {
+  width: 90%;
+  margin: auto;
+  max-height: 300px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.no-tasks {
+  color: #777;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.list-item span {
+  color: #999;
+  text-align: left;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding-bottom: 5px;
+}
+
+.task-btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding-left: 5px;
+  display: inline;
+}
+
+.btn-delete i {
+  font-size: 16px;
+  color: #bbb;
+}
+
+.btn-edit i {
+  font-size: 16px;
+  color: #bbb;
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.TaskTitle {
+  font-family: 'MuseoModerno', cursive;
+}
+
+.clear-btn,
+.add-task-btn {
+  width: 100px;
+  height: 35px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: none;
+  font-family: 'MuseoModerno', cursive;
+  font-size: 14px;
+  border-radius: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.619);
+  outline: none;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.task-input {
+  width: 350px;
+  min-width: 250px;
+  padding: 15px 10px 10px 20px;
+  margin-right: 10px;
+  font-family: 'MuseoModerno', cursive;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  background-color: #00000063;
+  border: 1px solid rgba(0, 0, 0, 0.394);
+  outline: none;
+  border-radius: 20px;
+  box-shadow: 0 12px 10px rgba(0, 0, 0, 0.639);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.ProjectTitle {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #aaa;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 10px;
+}
+
+.Btns {
+  margin-right: 10px;
+}
